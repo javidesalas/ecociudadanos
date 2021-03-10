@@ -3,9 +3,10 @@ import axios from "axios";
 export default class CourseService {
 	constructor() {
 		this.api = axios.create({
-			baseURL: "http://localhost/ecociudadanos/wp-json/wp/v2",
+			baseURL: "http://158.69.125.119/~ecociuda/wp-json/wp/v2/cursos",
 			withCredentials: true,
 		});
 	}
-	getAllCourses = () => this.api.get("/cursos");
+	getAllCourses = () => this.api.get("/");
+	getOneCourse = (courseId) => this.api.get(`/${courseId}`);
 }
