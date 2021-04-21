@@ -3,10 +3,10 @@ import axios from "axios";
 export default class CourseService {
 	constructor() {
 		this.api = axios.create({
-			baseURL: "http://158.69.125.119/~ecociuda/wp-json/wp/v2/cursos",
+			baseURL: process.env.REACT_APP_API_URL,
 			withCredentials: true,
 		});
 	}
-	getAllCourses = () => this.api.get("/");
-	getOneCourse = (courseId) => this.api.get(`/${courseId}`);
+	getAllCourses = () => this.api.get("/cursos/");
+	getOneCourse = (courseId) => this.api.get(`/cursos/${courseId}`);
 }
