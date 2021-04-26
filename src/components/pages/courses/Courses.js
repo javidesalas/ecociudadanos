@@ -29,7 +29,7 @@ const Courses = () => {
 	}, []);
 
 	return (
-		<div>
+		<div className="main">
 			{cursos && cursos.map((elm) => <CourseCard {...elm} key={elm.id} />)}
 		</div>
 	);

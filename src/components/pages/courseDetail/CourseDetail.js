@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import {Link} from "react-router-dom"
 import courseService from "../../../services/course.service";
 
 const CourseDetail = ({ match }) => {
@@ -45,10 +44,7 @@ const CourseDetail = ({ match }) => {
 				<p>costo:{curso.costo}</p>
 				<p>participantes:{curso.participantes}</p>
 				<a href={curso.programa}>Descarga el programa</a> <br/>
-			<a href={curso.inscripcion}> Formulario de inscripcion</a>
-			<Link to="cursos">
-				<p>Volver a cursos</p>
-			</Link>
+				<a href={curso.inscripcion}> Formulario de inscripcion</a>
 			</div>
 		);
 };

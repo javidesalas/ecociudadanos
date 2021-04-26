@@ -1,0 +1,26 @@
+nav {
+    padding: 2vw;
+    background-color: #7fffd4;
+    border: solid #62c9a6 1px;
+
+}
+
+button.navbar-toggler {
+    border: solid black 2px;
+}
+
+/*body {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}*/
+
+/*
+div.main {
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+    margin: auto;
+}
+*/

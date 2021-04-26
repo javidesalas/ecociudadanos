@@ -1,0 +1,26 @@
+div.info {
+    padding: 5vw;
+    padding-right: 10vw;
+}
+
+p {
+    text-align: justify;
+    text-justify: inter-word;
+    width: 90vw;
+    margin: auto;
+    margin-top: 2.5vw;
+}
+
+li {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+h4, li {
+    margin-bottom: 2.5vw;
+    margin-top: 2.5vw;
+}
+
+li+p, li p {
+    width: 80vw;
+}

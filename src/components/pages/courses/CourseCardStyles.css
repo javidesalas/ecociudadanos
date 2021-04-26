@@ -1,0 +1,15 @@
+div.main {
+    display: flex;
+    flex-direction: column;
+    width: 95vw;
+}
+
+div.card {
+    width: 95vw;
+    margin: 2.5vw;
+    border: solid black 1px;
+}
+
+.card-text, .card-title, .card-body {
+    width: 90%;
+}
