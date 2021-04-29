@@ -1,13 +1,14 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "../header/Navbar.css";
 
 const Navbar = () => {
 	return (
 		<header>
-			<nav className="navbar navbar-expand-lg navbar-light bg-light">
+			<nav className="navbar navbar-expand-lg navbar-light">
 				<div className="container-fluid">
 					<Link class="navbar-brand" to="/">
-						Navbar
+						Ecociudadanos
 					</Link>
 					<button
 						class="navbar-toggler"
@@ -23,7 +24,7 @@ const Navbar = () => {
 					<div class="collapse navbar-collapse" id="navbarNav">
 						<ul class="navbar-nav">
 							<li class="nav-item">
-								<Link className="nav-link active" aria-current="page" to="/">
+								<Link className="nav-link" aria-current="page" to="/">
 									Home
 								</Link>
 							</li>
