@@ -2,6 +2,10 @@
     overflow-x: hidden;
 }
 
+:not(header) {
+    overflow-x: visible;
+}
+
 div.container-fluid {
     width: 90vw;
     margin: auto;
